@@ -1,0 +1,375 @@
+Testing Software:
+
+La prueba de software es el proceso de identificación de la corrección y la calidad del programa de software. El propósito es verificar si el software cumple con
+los requisitos, necesidades y expectativas específicas del cliente. En otras palabras, las pruebas están ejecutando un sistema o aplicación para
+encontrar errores, defectos o defectos en el software.
+
+
+-- Formas de prueba
+
+* Pruebas de software: proceso para descubrir errores y problemas en el sistema / aplicación.
+* Prueba Manual
+* Prueba Automatización.
+
+-- Artefactos de pruebas
+
+* Base de la prueba: es la información necesaria para comenzar el análisis de la prueba y para crear nuestros casos de prueba
+
+* Especificación del caso de prueba: un documento descrito resumen detallado de qué escenarios se probarán, cómo se probarán, con qué frecuencia se probarán
+
+* Escenario de prueba: también se llama condición de prueba o posibilidad de prueba significa cualquier funcionalidad que se puede probar.
+
+* Caso de Prueba: Qué es el caso de prueba y la estrategia para escribir un buen caso de prueba una documentación que especifica la entrada,
+  las condiciones previas, el conjunto de pasos de ejecución y el resultado esperado.
+
+
+-- Proceso de prueba
+
+* Principios de pruebas de software: siete importante principio de pruebas de software para mejorar la calidad de prueba
+
+1. La prueba depende del contexto:
+
+No se deben aplicar las mismas pruebas en todos los ámbitos, ya que los diferentes productos de software tienen diferentes requisitos, funciones y propósitos
+
+2. La prueba exhaustiva es imposible:
+
+No es posible probar todas las combinaciones posibles de datos y escenarios de prueba, ya que llevará mucho tiempo. Por esta razón, el riesgo y las
+prioridades se utilizan para concentrarse en los aspectos más importantes a probar.
+
+3. Pruebas tempranas:
+
+deben comenzar temprano y centrarse en objetivos definidos. Es mucho más barato cambiar un requisito incorrecto que tener que cambiar una funcionalidad
+en un sistema grande que no funciona según lo solicitado o diseñado.
+
+4. Agrupación de defectos:
+
+La mayoría de los defectos notificados están relacionados con una pequeña cantidad de módulos dentro de un sistema. Al identificar y concentrarse en ese
+defecto, se puede probar más eficiente las áreas sensibles y al mismo tiempo probar las áreas "no sensibles"
+
+5. Paradoja del pesticida:
+
+Si seguimos ejecutando el mismo conjunto de pruebas una y otra vez, es probable que esos casos de prueba no descubran nuevos defectos.
+Revisar los casos de prueba con regularidad. Se deben escribir pruebas nuevas y diferentes para cubrir diferentes partes del software o sistema para
+encontrar más defectos.
+
+6. La prueba muestra la presencia de defectos:
+
+Las pruebas siempre reducen el número de defectos no descubiertos restantes en el software. Por lo tanto, es importante diseñar Casos de Prueba que
+encuentran tantos defectos como sea posible.
+
+7. Ausencia de errores de falacia:
+
+Si el sistema construido es inutilizable y no satisface las necesidades y expectativas del usuario, entonces encontrar y corregir los defectos no ayudará.
+Se debe confirmar las pruebas ejecutadas eran realmente diseñado para detectar la mayoría de los defectos.
+
+* Proceso de prueba
+
+La prueba es un proceso en lugar de una sola actividad. Incluye planificación y control, análisis y diseño, implementación y ejecución, evaluación de los
+criterios de salida, informes y actividades de cierre de pruebas
+
+* Ciclo de vida de pruebas de software
+
+se define como una secuencia de actividades conducidas para realizar pruebas de software. Consiste en una serie de actividades desarrolladas metodológicamente
+para ayudar a certificar su producto de software.
+
+todo el proceso involucrado en la fase de pruebas del desarrollo de software son Requerimiento/review/Analisis, Test Initiation, test disign, test execution,
+defect management, test closure.
+
+-- CICLO DE VIDA DEL DESARROLLO DE SOFTWARE
+
+Es un enfoque sistemático para desarrollar software. Crea una estructura para que el desarrollador diseñe, cree y entregue software de alta calidad de acuerdo
+con los requisitos del cliente o usuario final.
+
+
+* Modelo de Cascada:
+
+Todo el proceso de desarrollo de software se divide en fases separadas. El resultado de una fase actúa como la entrada para la siguiente fase secuencialmente.
+Esto significa que cualquier fase del proceso de desarrollo comienza sólo si la fase anterior está completa.
+
+El modelo de cascada funciona bien para proyectos más pequeños donde los requisitos se entienden muy bien.
+
+Desventajas del modelo de cascada Es difícil estimar el tiempo y el costo para cada fase del proceso de desarrollo No es un buen modelo para proyectos
+complejos y orientados a objetos.
+
+* Modelo iterativo:
+
+Es un método de desarrollo de software donde el producto se diseña, implementa y prueba de forma incremental. Poco más se agrega cada vez hasta que el producto
+está terminado.
+
+Genera software de trabajo de forma rápida y temprana durante el ciclo de vida del software. Este modelo es más flexible y menos costoso para cambiar el
+alcance y los requisitos. Es más fácil de probar y depurar, ya que se realizan cambios más pequeños durante cada iteración.
+
+Desventajas
+
+A medida que se agrega funcionalidad adicional al producto en cada etapa, pueden surgir problemas relacionados con la arquitectura del sistema, lo cual no fue
+evidente en las etapas anteriores. Necesita una buena planificación y diseño en cada paso. Necesita una definición clara y completa de todo el sistema antes
+de que pueda desglosarse y construirse de manera incremental.
+El costo total es más alto que la cascada.
+
+* Modelo espiral:
+
+el modelo espiral es una combinación de modelo de desarrollo iterativo y modelo de cascada con muy alto énfasis en el análisis de riesgos.
+Permite las versiones incrementales del producto, o el refinamiento incremental a través de cada iteración alrededor de la espiral
+
+este modelo se utiliza mejor para proyectos grandes que implican mejoras continuas. Hay actividades específicas que se realizan
+en una iteración (espiral) donde la salida es un pequeño prototipo del software grand.
+
+Ventajas:
+La estimación de costos se vuelve fácil a medida que la creación de prototipos se realiza en pequeños segmentos.
+El desarrollo se puede dividir en partes más pequeñas y las partes más riesgosas se pueden desarrollar antes, lo que ayuda a una mejor gestión de riesgos.
+El desarrollo es rápido y las características se agregan de manera sistemática.
+Siempre hay un espacio para comentarios de los clientes y los cambios se implementan más rápido.
+
+
+Desventajas:
+Funciona mejor solo para proyectos grandes y podría ser costoso para proyectos pequeños.
+El análisis de riesgos es una fase importante, por lo que se requieren expertos para la evaluación de riesgos
+La documentación es más, ya que tiene un gran número de fases intermedias para su buen funcionamiento. Es necesario seguir estrictamente el protocolo en espiral.
+
+
+Cuando se debe seguir el modelo en espiral:
+Para proyectos medianos y grandes.
+Para proyectos de alto riesgo.
+Los usuarios no están seguros de sus necesidades.
+Los requisitos son complejos.
+Si los requerimientos son más complicados.
+Si se requieren cambios frecuentes en el proyecto.
+
+
+* Modelo V
+
+Es conocido como Modelo de Verificación y Validación. V-Model es una extensión del modelo Waterfall y se basa en la asociación de una fase de
+prueba para cada etapa de desarrollo correspondiente. Esto significa que para cada fase del ciclo de desarrollo hay una fase de pruebas
+directamente asociada. Este es un modelo altamente disciplinado y la siguiente fase comienza sólo después de la finalización de la fase anterior.
+
+Las siguientes son las fases típicas de validación en el V-Model.
+
+Pruebas unitarias: las pruebas unitarias diseñadas en la fase de diseño del módulo se ejecutan en el código durante esta fase de validación.
+La prueba de unidad es la prueba a nivel de código y ayuda a eliminar errores en una etapa temprana. Una unidad es la entidad más pequeña que
+puede existir independientemente, p. Ej. Un módulo de programa. Las pruebas unitarias verifican que la entidad más pequeña puede funcionar
+correctamente cuando está aislada del resto de los códigos / unidades.
+
+Pruebas de integración: las pruebas de integración están asociadas con la fase de diseño arquitectónico. Estas pruebas verifican que las
+unidades creadas y probadas independientemente pueden coexistir y comunicarse entre sí dentro del sistema.
+
+Pruebas del sistema: los planes de pruebas del sistema se desarrollan durante la fase de diseño del sistema. Los planes de prueba del sistema
+están compuestos por el equipo de negocios del cliente. La prueba del sistema garantiza que se cumplan las expectativas de la aplicación
+desarrollada. Toda la aplicación está probada por su funcionalidad, interdependencia y comunicación. Pruebas de aceptación del usuario: las
+pruebas de aceptación están asociadas con la fase de análisis de los requisitos del negocio e involucran probar el producto en el entorno del
+usuario. UAT verifica que el sistema entregado cumpla con los requisitos del usuario y que el sistema esté listo para su uso en tiempo real.
+
+Ventajas
+
+Este es un modelo altamente disciplinado y las fases se completan una a la vez.
+Fácil de manejar debido a la rigidez del modelo. Cada fase tiene entregables específicos y un proceso de revisión.
+Simple y fácil de entender y usar.
+Las actividades de prueba como la planificación, el diseño de pruebas se realizan antes de la codificación. Esto ahorra mucho tiempo. Por lo
+tanto, mayor probabilidad de éxito sobre el modelo de cascada.
+La implementación de las pruebas comienza desde la fase de requisitos, los defectos se encuentran en la etapa inicial.
+Funciona bien para proyectos pequeños donde los requisitos se entienden fácilmente.
+
+
+Desventajas
+
+Muy rígido y menos flexible, por lo que ajustar el alcance es difícil y costoso.
+El software se desarrolla durante la fase de implementación, por lo que no se producen los primeros prototipos del software.
+No es adecuado para los proyectos donde los requisitos tienen un riesgo de cambio de moderado a alto.
+
+
+
+Modelo RAD: los módulos funcionales se desarrollan simultáneamente como prototipos y se integran para hacer el producto completo para una
+entrega más rápida del producto. El cliente obtiene una visibilidad temprana del software y puede proporcionar comentarios sobre el diseño,
+la entrega y otros requisitos. Aprende más
+
+Modelo de prototipo: la idea básica aquí es que, en lugar de congelar los requisitos antes de que pueda proceder un diseño o codificación,
+se crea un prototipo desechable para comprender los requisitos. Este prototipo está desarrollado en base a los requisitos actualmente conocidos.
+
+* Nivel de Testing
+
+Pruebas funcionales: las pruebas funcionales implican probar la aplicación en función de los requisitos comerciales. El objetivo de las pruebas
+funcionales es verificar que la aplicación se comporta de la forma en que fue diseñada.
+
+Pruebas unitarias: pruebas individuales e independientes de las partes más pequeñas que se pueden probar en una aplicación.
+
+Pruebas de integración: cuando los módulos de software individuales se combinan y se prueban como un grupo, se conoce como Pruebas de
+integración.
+
+
+Pruebas de humo: Pruebas preliminares para revelar fallas simples lo suficientemente graves como para (por ejemplo) rechazar una posible
+versión o compilación de software.
+
+
+Pruebas de cordura: un breve recorrido de las funcionalidades para garantizar que parte del sistema o la metodología funcionen aproximadamente
+como se esperaba.
+
+
+Pruebas del sistema: Pruebas realizadas en un sistema completo e integrado para evaluar el cumplimiento del sistema con los requisitos
+especificados.
+
+
+Pruebas de regresión: la reevaluación de un sistema de software para confirmar que los cambios realizados en algunas partes de los códigos
+no tienen ningún efecto secundario en las funcionalidades existentes del sistema.
+
+Pruebas de aceptación: Pruebas formales con respecto a las necesidades del usuario, los requisitos y los procesos comerciales realizados para
+determinar si un sistema cumple con los criterios de aceptación.
+
+Pruebas alfa y beta: las pruebas alfa las realiza un equipo de evaluadores altamente calificados en el sitio de desarrollo, mientras que las
+pruebas beta siempre se realizan en un entorno de tiempo real por clientes o usuarios finales en su propio sitio.
+
+Pruebas de extremo a extremo: las pruebas de extremo a extremo generalmente se ejecutan después de las pruebas funcionales y del sistema.
+Utiliza la producción real, como los datos y el entorno de prueba para simular configuraciones en tiempo real. La prueba de extremo a extremo
+también se denomina prueba de cadena.
+
+Pruebas no funcionales: las pruebas no funcionales están diseñadas para determinar si su producto proporcionará una buena experiencia de usuario.
+
+Pruebas de rendimiento: para evaluar el rendimiento de los componentes de un sistema en particular bajo una carga de trabajo particular.
+
+Prueba de carga: prueba el comportamiento del sistema bajo una carga específica o para obtener el punto de equilibrio en el que el sistema
+comienza a degradar su rendimiento.
+
+Pruebas de estrés: se realiza para encontrar la capacidad límite superior del sistema y también para determinar cómo funciona el sistema si
+la carga actual está muy por encima del máximo esperado.
+
+Pruebas de usabilidad: Pruebas para determinar hasta qué punto el producto de software se entiende, es fácil de aprender, fácil de operar y
+atractivo para los usuarios en condiciones específicas.
+
+Pruebas de seguridad: con la intención de descubrir las vulnerabilidades del sistema y determinar que sus datos y recursos están protegidos
+contra posibles intrusos.
+
+Pruebas de portabilidad: la confiabilidad del software es la probabilidad de que el software funcione correctamente en un entorno específico y
+durante un período de tiempo determinado.
+
+* Métodos de Testing
+
+Métodos de prueba Prueba de caja negra: Método en el que el probador NO conoce la estructura / diseño / implementación interna del elemento que
+se está probando.
+
+La prueba se realiza desde el punto de vista del cliente y el evaluador solo conoce las entradas y las salidas esperadas de la aplicación.
+
+Se llama "BlackBox" porque el software es como una caja negra dentro de la cual el probador no puede ver. El objetivo principal de las pruebas
+de Black Box es verificar si el software funciona como se espera y si cumple o no los requisitos del cliente. Fue diseñado como un método para
+analizar los requisitos del cliente, las especificaciones y las estrategias de diseño de alto nivel.
+
+Ventajas:
+Es adecuado y eficiente para segmentos de gran escala.
+Un probador puede ser no técnico. No se requieren probadores altamente calificados y por lo tanto es menos costoso.
+Las pruebas se realizan desde el punto de vista del usuario y son útiles para verificar las diferencias entre lo real, el sistema y las especificaciones.
+Las pruebas se pueden definir tan pronto como las especificaciones estén completas.
+
+
+Desventajas:
+La cobertura es limitada ya que solo se realiza un número seleccionado de pruebas.
+Como el probador tiene un conocimiento limitado del software, la prueba es ineficiente.
+La cobertura es ciega ya que el probador no puede apuntar a códigos específicos.
+
+
+Técnicas de prueba de caja negra
+Hay diferentes técnicas involucradas en la prueba de la caja negra.
+
+Clase de equivalencia
+Análisis del valor límite
+Pruebas de dominio
+Arreglos Ortogonales
+Tablas de decisión
+Modelos de estado
+Prueba exploratoria
+Pruebas de todos los pares
+
+
+Prueba de caja blanca: Método en el que el probador conoce la estructura interna / diseño / implementación del elemento que se está probando.
+
+El objetivo principal de WBT es fortalecer la seguridad y mejorar el diseño y la facilidad de uso del software
+
+Para esto, se supone que el probador tiene el conocimiento de los lenguajes de programación y la implementación de códigos. El evaluador debe
+ser consciente de las preocupaciones de seguridad del proyecto y su trabajo es evitar los ataques de usuarios y piratas informáticos que pueden
+inyectar código malicioso en el software de forma intencional o involuntaria. La prueba de caja blanca es como el trabajo de un mecánico de
+automóviles que conoce todos los aspectos internos del automóvil y comprueba por qué no funciona o ofrece menos kilometraje, etc.
+
+White Box Testing también se conoce como Glass Box Testing, Clear Box Testing, Open Box Testing, Logic Driven Testing, Path Driven Testing o
+Structural Testing.
+
+Definición por ISTQB
+Pruebas de caja blanca: Pruebas basadas en un análisis de la estructura interna del componente o sistema.
+Técnica de diseño de prueba de caja blanca: Procedimiento para derivar y / o seleccionar casos de prueba basados ​​en un análisis de la
+estructura interna de un componente o sistema.
+
+Pasos para la prueba de caja blanca:
+Comprensión del código fuente: el primer trabajo del comprobador es comprender el código fuente y la estructura del software.
+
+Técnicas de prueba de caja blanca:
+Cobertura de estados de cuenta: está orientada al ejercicio de todos los estados de programación con pruebas mínimas.
+Cobertura de sucursales - Ejecutar una serie de pruebas para garantizar que todas las sucursales se prueben al menos una vez.
+Cobertura de ruta: prueba todas las rutas posibles, lo que significa que cada declaración y rama están cubiertas.
+
+Ventajas:
+La prueba es más completa, ya que cubre todas las rutas posibles de código.
+Como el comprobador es consciente de la estructura de codificación interna, es útil decidir qué tipo de datos de entrada se necesitan para probar la aplicación de software de manera efectiva.
+White Box Testing le permite ayudar en la optimización del código.
+
+
+Desventajas
+Como se requiere un recurso altamente capacitado para realizar pruebas que conozcan el conocimiento profundo de la estructura interna del código, el costo es alto.
+Si la aplicación bajo prueba es grande en tamaño, entonces la prueba exhaustiva es imposible.
+No es posible que las pruebas prueben todas y cada una de las rutas / condiciones del programa de software, lo que podría pasar por alto los defectos del código.
+Como cada ruta se prueba, es un tipo de prueba muy costoso.
+
+Prueba de caja gris: Método en el que el probador conoce algunas partes de la estructura interna.
+
+La prueba de la caja gris se considera no intrusiva e imparcial porque no requiere que el probador tenga acceso al código interno. El probador puede saber cómo interactúan los componentes del sistema pero no tiene un conocimiento detallado de las funciones y operaciones internas del programa. Existe una clara distinción entre el desarrollador y el probador, lo que minimiza el riesgo de conflictos con el personal.
+
+Las pruebas de Gray-Box son beneficiosas porque utilizan la técnica de pruebas de Black-Box y las combinan con los sistemas de código específico en las pruebas de White-Box. Se llama prueba de caja gris porque la aplicación para probador es como una caja transparente y el comprobador puede ver dentro de ella pero no es completamente transparente y puede ver parcialmente en ella.
+
+
+
+Ventajas de la prueba de caja gris
+Ofrece beneficios combinados: como la prueba de caja gris es una combinación de prueba de caja blanca y caja negra, ofrece ventajas tanto de la prueba.
+No intrusivo: se basa en la especificación funcional, la vista arquitectónica, pero no en el código fuente o los binarios, lo que también lo hace invasivo.
+Pruebas no sesgadas: las pruebas de Gray-Box mantienen una línea de límite para las pruebas entre el probador y el desarrollador, evitando conflictos.
+
+Efectos negativos
+Cobertura parcial del código: en las pruebas de Gray-Box, faltan el código fuente o los binarios debido al acceso limitado a la estructura interna de las aplicaciones, lo que resulta en un acceso limitado para el recorrido de la ruta del código.
+
+Técnicas de Pruebas Dinámicas
+Pruebas dinámicas: Realización de pruebas mientras se ejecuta el programa.
+
+Basado estructurado:
+Declaración:
+Decisión:
+Condición:
+Condición múltiple:
+Basado en la experiencia:
+Adivinando errores:
+Prueba exploratoria:
+Especificación basada:
+Análisis del valor límite:
+Partición de equivalencia:
+Prueba de mesa de decisión:
+Pruebas de matriz ortogonal:
+Diagramas de transición de estado:
+Prueba de casos de uso:
+
+
+Técnicas de Pruebas de Estática
+Prueba estática: prueba de un software sin ejecutar el código.
+
+Revisión: normalmente se utiliza para encontrar y eliminar errores o ambigüedades en documentos tales como requisitos, diseño, casos de prueba, etc.
+
+Revisión informal
+Recorrer
+Revisión técnica
+Inspección
+
+Análisis estático: el código escrito por los desarrolladores se analiza (generalmente mediante herramientas) para detectar defectos estructurales que pueden provocar defectos.
+
+Análisis estático
+Flujo de datos
+Flujo de control
+
+
+Gestión de Pruebas
+
+Ciclo de vida del insecto: el ciclo de vida del defecto es el viaje de un ciclo de defecto, por el cual un defecto pasa durante su vida útil.
+
+Integración continua CI: es una práctica de ingeniería de software en la que los cambios aislados se prueban e informan de inmediato cuando se agregan a una base de código más grande.
+
+Configuration Management CM: un completo programa de administración de la configuración incluye disposiciones para el almacenamiento, seguimiento y actualización de toda la información del sistema en un componente, subsistema y sistema.
